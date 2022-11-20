@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "OumaNBrKOWpsL9Prs1rkU/FTbhWLrMlgJjHd2wylReGSKilUytSYjbvXLuQhKiGefSM4mDJfFyAgZbzhWa5mnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mefiu\\source\\repos\\Calculator3D-master\\Calculator3D\\Calculator3D.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mefiu\\.nuget\\packages\\harfbuzzsharp\\2.6.1.9\\harfbuzzsharp.2.6.1.9.nupkg.sha512",
+    "C:\\Users\\Mefiu\\.nuget\\packages\\questpdf\\2022.9.1\\questpdf.2022.9.1.nupkg.sha512",
+    "C:\\Users\\Mefiu\\.nuget\\packages\\skiasharp\\2.80.4\\skiasharp.2.80.4.nupkg.sha512",
+    "C:\\Users\\Mefiu\\.nuget\\packages\\skiasharp.harfbuzz\\2.80.4\\skiasharp.harfbuzz.2.80.4.nupkg.sha512",
+    "C:\\Users\\Mefiu\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

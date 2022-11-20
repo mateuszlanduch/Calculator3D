@@ -1,0 +1,152 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Calculator3D/1.0.0": {
+        "dependencies": {
+          "QuestPDF": "2022.9.1"
+        },
+        "runtime": {
+          "Calculator3D.dll": {}
+        }
+      },
+      "HarfBuzzSharp/2.6.1.9": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.6.1.9"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "QuestPDF/2022.9.1": {
+        "dependencies": {
+          "SkiaSharp": "2.80.4",
+          "SkiaSharp.HarfBuzz": "2.80.4"
+        },
+        "runtime": {
+          "lib/net6.0/QuestPDF.dll": {
+            "assemblyVersion": "2022.9.1.0",
+            "fileVersion": "2022.9.1.0"
+          }
+        }
+      },
+      "SkiaSharp/2.80.4": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.80.0.0",
+            "fileVersion": "2.80.4.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/2.80.4": {
+        "dependencies": {
+          "HarfBuzzSharp": "2.6.1.9",
+          "SkiaSharp": "2.80.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.HarfBuzz.dll": {
+            "assemblyVersion": "2.80.0.0",
+            "fileVersion": "2.80.4.0"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {}
+    }
+  },
+  "libraries": {
+    "Calculator3D/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HarfBuzzSharp/2.6.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yx6dCVHTMn25r7z5oBfJxiXN/MUhk25rw0YZxv1g3cwXk3qtvGD/oJP5t9undelpjVXw+IJA4bd1AquOLXmLdw==",
+      "path": "harfbuzzsharp/2.6.1.9",
+      "hashPath": "harfbuzzsharp.2.6.1.9.nupkg.sha512"
+    },
+    "QuestPDF/2022.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qgtW877RtR/gWOpEXnasLLdeB9eumgmncSVOGtSv3Z7qSTRravokm4WkZayo7DDcuED1n7th1J5bzCX6M4nuiw==",
+      "path": "questpdf/2022.9.1",
+      "hashPath": "questpdf.2022.9.1.nupkg.sha512"
+    },
+    "SkiaSharp/2.80.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lVzAGA969C2Taxpf1wg17PODiYDTk2hnMWBu1bPrjftNxuO+hCPIFgrieMBI6NpiHuF1ahCIMlS+CTw0NwjVnA==",
+      "path": "skiasharp/2.80.4",
+      "hashPath": "skiasharp.2.80.4.nupkg.sha512"
+    },
+    "SkiaSharp.HarfBuzz/2.80.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Beok7PChz8M2Iz3xo0Bzuj6Whw7zT6GfVTJQIIQLH1ycfrIM4XEXgiQLYViGBwwDDpalUCSxkk/Ccxp+5YAtaQ==",
+      "path": "skiasharp.harfbuzz/2.80.4",
+      "hashPath": "skiasharp.harfbuzz.2.80.4.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    }
+  }
+}

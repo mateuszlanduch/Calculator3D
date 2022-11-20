@@ -5,11 +5,15 @@ using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Media;
+using SkiaSharp;
 
 namespace Calculator3D
 {
     public partial class Form1 : Form
     {
+        SoundPlayer snd;
+
         //variables
         #region
 
@@ -47,12 +51,12 @@ namespace Calculator3D
         string material;
         string namePrinter;
 
-       
 
-        
+
+
         //decimal test = 4.434m;
         #endregion
-
+        
         //Time
         DateTime today = DateTime.Now;
 
@@ -146,17 +150,21 @@ namespace Calculator3D
         #endregion
 
 
+       
         public Form1()
         {
-           
+
             InitializeComponent();
-       
+            snd = new SoundPlayer("1.wav");
+            snd.Play();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+          
             timer1.Enabled = true;
-           
+
+
 
         }
 
