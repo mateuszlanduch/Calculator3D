@@ -1,0 +1,3 @@
+There is a working program in the file "Calculation3D". Read file "Instruction1File.docx" if you want to get one "START.exe" file in folder Calculation3D.
+
+The rest of the files are Visual Studio C# Winfroms project files if you want delete this.
